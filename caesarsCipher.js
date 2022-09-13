@@ -17,7 +17,7 @@ function rot13(str) { // LBH QVQ VG!
     if (cipher.charCodeAt(index) > 0) {  //check to see if the letter is alphanumeric
        replacer.push(String.fromCharCode(cipher.charCodeAt(index))); //add to array
     }
-      else replacer.push(str[x]); //adds non-alphanumeric to the array
+    //   else replacer.push(str[x]); //adds non-alphanumeric to the array
     }
     return replacer.join(""); //combines it all back together
   }
@@ -26,4 +26,4 @@ function rot13(str) { // LBH QVQ VG!
   console.log(rot13("SERR CVMMN!"));
   console.log(rot13("SERR PBQR PNZC"));
   console.log(rot13("SERR YBIR?"));
-  console.log(rot13("SERR YBIR?"));
+  console.log(rot13("SERR YB3,İIR?"));
